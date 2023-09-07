@@ -3,10 +3,9 @@ public class Main {
         int clientAccount = 100;
         int addFunds = 1350;
         int bonus;
-        if (addFunds >= 1000) {
+        if (addFunds > 1000) {
             bonus = addFunds / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
         System.out.println("Начислено " + bonus + " бонусов");
